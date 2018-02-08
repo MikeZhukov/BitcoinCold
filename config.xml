@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ua.bitcoincold.wallet" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Bitcoin Cold</name>
+    <description>
+        Оффлайн bitcoin гаманець Bitcoin Cold для конкурсу-захисту МАН
+    </description>
+    <author email="imikezhukov@gmail.com">
+        Михайло Жуков
+    </author>
+    <content src="index.html" />
+    <platform name="android">
+        <icon density="mdpi" src="www/res/icon/android/mipmap-mdpi/ic_launcher.png" />
+        <icon density="hdpi" src="www/res/icon/android/mipmap-hdpi/ic_launcher.png" />
+        <icon density="xhdpi" src="www/res/icon/android/mipmap-xhdpi/ic_launcher.png" />
+        <icon density="xxhdpi" src="www/res/icon/android/mipmap-xxhdpi/ic_launcher.png" />
+        <icon density="xxxhdpi" src="www/res/icon/android/mipmap-xxxhdpi/ic_launcher.png" />
+    </platform>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+	<allow-intent href="bitcoin:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+</widget>
